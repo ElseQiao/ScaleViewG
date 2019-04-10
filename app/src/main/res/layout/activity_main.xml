@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="100dp">
+
+    <com.example.anelse.scaleview.CustomScaleView
+        android:id="@+id/scale_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/normal_blood_glucose" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="589dp"
+            android:layout_height="73dp"
+            app:srcCompat="@mipmap/fasting_blood_glucose_standard" />
+    </com.example.anelse.scaleview.CustomScaleView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Button" />
+
+
+</LinearLayout>
