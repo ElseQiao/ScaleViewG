@@ -1,3 +1,3 @@
 # ScaleViewG
 
-![](src/main/res/mipmap-mdpi/ezgif.gif)
+![](app/src/main/res/mipmap-mdpi/ezgif.gif)
